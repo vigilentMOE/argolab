@@ -9,7 +9,7 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: guestbook
+    path: apps/guestbook
     repoURL: "https://github.com/vigilentMOE/argolab.git"
     targetRevision: main
   syncPolicy:
