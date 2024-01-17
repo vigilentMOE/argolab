@@ -12,6 +12,8 @@ spec:
     path: apps/guestbook-helm-options
     repoURL: "https://github.com/vigilentMOE/argolab.git"
     targetRevision: main
+    helm: 
+      releaseName: my-custom-release-name
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
