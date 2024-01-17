@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata: 
-  name: guestbook
+  name: guestbook-with-sub-directories
   namespace: argocd
 spec: 
   destination: 
-    namespace: guestbook
+    namespace: guestbook-with-sub-directories
     server: "https://kubernetes.default.svc"
   project: default
   source: 
